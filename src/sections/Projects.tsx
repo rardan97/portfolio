@@ -26,7 +26,7 @@ return (
   className="py-20 flex flex-col items-center justify-center px-10 lg:px-50 md:px-5 sm:px-8 max-w-full mx-auto"
 >
       <h2 className="text-3xl font-bold text-center mb-10">Projects</h2>
-      <p className="text-center mb-10">A showcase of my personal projects and professional experience in building scalable, mission-critical applications across various domains and technologies.</p>
+      <p className="text-center mb-10">A showcase of my personal projects and professional experience</p>
 
       {/* Filter Buttons */}
       <div className="flex justify-center gap-4 mb-10 flex-wrap">
