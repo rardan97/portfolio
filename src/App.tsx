@@ -9,8 +9,6 @@ import Hero from './sections/Hero'
 import Projects from './sections/Projects'
 import Skills from './sections/Skills'
 
-// import AppLayout from './layouts/AppLayout'
-
 function App() {
   return (
     <>
@@ -22,7 +20,6 @@ function App() {
         <Experience />
         <Skills />
         <Projects />
-        {/* <Contact /> */}
       </div>      
     </>
   )
