@@ -1,4 +1,5 @@
-import skills from "../data/skills.json";
+
+import { useEffect, useState } from 'react';
 import SkillComponent from '../components/SkillComponent';
 
 interface Skill {
@@ -7,6 +8,18 @@ interface Skill {
 }
 
 const Skills = () => {
+  const [skills, setSkills] = useState<Skill[]>([]);
+
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}data/skills.json`)
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to fetch skills.json");
+        return res.json();
+      })
+      .then((data) => setSkills(data))
+      .catch((err) => console.error("Error loading skills:", err));
+  }, []);
+
   return (
     <section id="skills" className="py-30 flex flex-col bg-gray-100 dark:bg-slate-950  items-center justify-center xl:px-30 lg:px-20 md:px-20 sm:px-5 max-w-full mx-auto">
       <h2 className="text-4xl font-bold text-center">My Skills</h2>

@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import CardProject from "../components/CardProject";
-import projects from "../data/projects.json";
+
 
 interface Project {
   title: string;
@@ -13,7 +13,18 @@ interface Project {
 }
 
 const Projects = () => {
-    const [activeCategory, setActiveCategory] = useState<string>("all");
+  const [projects, setProjects] = useState<Project[]>([]);
+  const [activeCategory, setActiveCategory] = useState<string>("all");
+
+   useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}data/projects.json`)
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to fetch projects.json");
+        return res.json();
+      })
+      .then((data) => setProjects(data))
+      .catch((err) => console.error("Error loading project data:", err));
+  }, []);
 
   const filteredProjects =
     activeCategory === "all"

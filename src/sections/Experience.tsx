@@ -1,5 +1,5 @@
+import { useEffect, useState } from "react";
 import ExperienceComponent from "../components/ExperienceComponent";
-import experience from "../data/experience.json";
 
 interface Experience {
   title: string;
@@ -13,12 +13,26 @@ interface Experience {
   points: string[];
 }
 const Experience = () => {
+  const [experiences, setExperiences] = useState<Experience[]>([]);
+
+   useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}data/experience.json`)
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to fetch experience.json");
+        return res.json();
+      })
+      .then(setExperiences)
+      .catch((err) => console.error("Error loading experience data:", err));
+  }, []);
+
+
+
   return (
     <section id="experience" className="py-20 flex flex-col items-center justify-center px-4 sm:px-8 md:px-10 lg:px-20 max-w-7xl mx-auto">
       <h2 className="text-3xl font-bold text-center mb-10">Experience</h2>
       <p className="text-center mb-10">A look at the companies and projects I’ve worked on, where I’ve gained valuable experience building real-world applications.</p>
        <div className="flex flex-col gap-10 w-full mx-auto">
-      {experience.map((item: Experience, index: number) => (
+      {experiences.map((item: Experience, index: number) => (
         
           <div className="w-full md:w-[80%] mx-auto">
             <ExperienceComponent
