@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Aplikasi Laboratorium",
+    "category":"featured-projects",
+    "description": "The Laboratory Application is a comprehensive system designed to efficiently manage, organize, and streamline all laboratory operations and administration tasks.",
+    "image": "project_laboratorium.png",
+    "link_detail": "#",
+    "link_source": "https://github.com/rardan97/aplikasi_laboratorium_project",
+    "skill": ["PHP", "CSS/HTML", "Ci3", "JQuery", "JavaScript", "MySQL"]
+  },
+  {
+    "title": "Microservices Architecture V1",
+    "category":"practice-projects",
+    "description": "This project is an implementation of a microservices architecture that divides the application into a set of small, independent, and separate services.",
+    
+    "image": "microservice_v1.png",
+    "link_detail": "#",
+    "link_source": "https://github.com/rardan97/spring-boot-micorservice-v1",
+    "skill": ["Java", "Spring Boot", "Spring Cloud", "Eureka Server", "Api Gateway", "PostgreSQL", "Docker", "Rest Api", "Microservice"]
+  },
+  {
+    "title": "Microservices Architecture V2",
+    "category":"practice-projects",
+    "description": "This application uses microservices architecture with Spring Boot, PostgreSQL, API Gateway, Eureka, Docker, and Swagger for scalable, maintainable services.",
+    "image": "microservice_v2.png",
+    "link_detail": "#",
+    "link_source": "https://github.com/rardan97/spring-boot-micorservice-v2",
+    "skill": ["Java", "Spring Boot", "Spring Cloud", "Spring security", "Eureka Server", "Jwt", "Api Gateway", "PostgreSQL", "Docker", "Rest Api", "Microservice"]
+  },
+  {
+    "title": "Microservices Architecture V3",
+    "category":"practice-projects",
+    "description": "This project demonstrates a microservices architecture built using Spring Boot and Resilience4j, implementing fault tolerance with Circuit Breaker and Retry mechanisms.",
+    "image": "microservice_v3.png",
+    "link_detail": "#",
+    "link_source": "https://github.com/rardan97/spring-boot-micorservice-v3",
+    "skill": ["Java", "Spring Boot", "Spring Cloud", "Spring security", "Eureka Server", "Jwt", "Api Gateway", "PostgreSQL", "Docker", "Rest Api", "Microservice", "Resilience4j", "Circuit Breaker"]
+  },
+  {
+    "title": "Microservices: Simple Finance Planner",
+    "category":"featured-projects",
+    "description": "microservice-finance-planner is a backend microservice designed to manage personal financial planning simply and effectively, allowing workers to track income, expenses, budgeting, and savings goals.",
+    "image": "financial_planner.png",
+    "link_detail": "#",
+    "link_source": "https://github.com/rardan97/microservice-financial-planner",
+    "skill": ["Java", "Spring Boot", "Spring Cloud", "Spring security", "Eureka Server", "Jwt", "Api Gateway", "PostgreSQL", "Docker", "Rest Api", "Microservice", "Resilience4j", "Circuit Breaker"]
+  }
+]

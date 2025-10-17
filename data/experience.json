@@ -1,0 +1,70 @@
+[
+  {
+    "title": "Back End Developer",
+    "company":"PT Ekrut Teknologi Pasifik",
+    "location":"Jakarta, Indonesia",
+    "image":"ekrut.png",
+    "colorBG":"#044777",
+    "description": "",
+    "date":"October 2024– July 2025",
+    "skill": ["Spring Boot", "Spring mvc", "JSP", "hibernate", "Java", "Laravel", "PHP", "JavaScript", "Python", "Bash Shell", "HTML/CSS", "MySQL","PostgreSQL", "Github", "Rest API", "Linux Server", "Docker", "Unit Test"],
+    "points": [
+        "Developed Application System Payment Gateway focused on integration Bank and transaction Merchant",
+        "Integration New Merchant registration in Payment Gateway",
+        "Developed technology Operator Bank for management virtual account",
+        "Create Job Schedule System sending email status amount using python"
+    ]
+  },
+  {
+    "title": "Full-Stack Web Developer",
+    "company":"PT WingsGroup Indonesia (Sayap Mas Utama)",
+    "location":"Jakarta, Indonesia",
+    "image":"wingsgroup.png",
+    "colorBG":"#FFFFFF",
+    "description": "",
+    "date":"Feb 2024 - Nov 2024",
+    "skill": ["Java", "Spring Boot", "PHP", "JavaScript", "Joomla", "JQuery", "HTML/CSS", "MySQL", "PostgreSQL", "Gitlab", "Payara Server", "Glassfish Server", "Rest API"],
+    "points": [
+        "Developed a Web portal application system focused on information management sales distribution",
+        "Developed Web Services by integrating the SAP ERP system for managing sales distribution information data",
+        "Collaborated with the Data Analysis team to develop and integrate an application for determining the best delivery distance to clients at each distribution center in Western Indonesia",
+        "Collaborated with the Mobile Team for Rest API integration in the development of the Mobile Checkpoint Manufacturing Application",
+        "Created a Job Schedule System on the Web Service Application to run the system automatically based on a predetermined time",
+        "Collaborate with the Business Process team to implement applications based on the business process flow.",
+        "Developed an application in 2 weeks using waterfall and Agile Scrum methodologies.",
+        "Fixed application bugs during the development testing, User Acceptance Testing (UAT), and live/production stages"
+    ]
+  },
+  {
+    "title": "Back End Developer",
+    "company":"PT Infosys Solusi Terpadu",
+    "location":"Yogyakarta, Indonesia",
+    "image":"ist.png",
+    "colorBG":"#FFFFFF",
+    "description": "",
+    "date":"December 2021 – December 2022",
+    "skill": ["Spring Boot", "Java", " SQL Oracle", "Rest API", "SOAP"],
+    "points": [
+      "Upgraded the Internet Banking Service Provider at one of the private banks in Indonesia for the Credit Card Transaction feature using Spring Boot technology",
+      "Developed a project application using a Microservice Architecture system.",
+      "Recorded the Service Version related to the Credit Card Transaction feature",
+      "Collaborated with Quality Assurance to conduct testing during the Development and System Integration Test phases.",
+      "Worked with System Analysts to design the application system flow focused on the Credit Card Transaction feature"
+    ]
+  },
+  {
+    "title": "Assistant Instructor",
+    "company":"Institut Teknologi Dirgantara Adisutjipto",
+    "location":"Yogyakarta, Indonesia",
+    "image":"itda.png",
+    "colorBG":"#FFFFFF",
+    "description": "",
+    "date":" 2016 – 2017",
+    "skill": ["Java Development", "Data Structures", "Object-Oriented Programming (OOP)"],
+    "points": [
+        "Assisted lecturers in teaching and supporting undergraduate Java programming classes",
+        "Provided hands-on guidance during lab sessions, including debugging and evaluating student assignments",
+        "Prepared laboratory materials and helped students understand object-oriented programming (OOP) concepts, Java syntax, and development tools"
+    ]
+  }
+]
