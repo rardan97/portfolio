@@ -1,0 +1,43 @@
+import ExperienceComponent from "../components/ExperienceComponent";
+import experience from "../data/experience.json";
+
+interface Experience {
+  title: string;
+  company: string;
+  location: string;
+  image: string;
+  colorBG: string;
+  date: string;
+  description: string;
+  skill: string[];
+  points: string[];
+}
+const Experience = () => {
+  return (
+    <section id="experience" className="py-20 flex flex-col items-center justify-center px-4 sm:px-8 md:px-10 lg:px-20 max-w-7xl mx-auto">
+      <h2 className="text-3xl font-bold text-center mb-10">Experience</h2>
+      <p className="text-center mb-10">A look at the companies and projects I’ve worked on, where I’ve gained valuable experience building real-world applications.</p>
+       <div className="flex flex-col gap-10 w-full mx-auto">
+      {experience.map((item: Experience, index: number) => (
+        
+          <div className="w-full md:w-[80%] mx-auto">
+            <ExperienceComponent
+            key={index}
+              title={item.title}
+              company={item.company}
+              location={item.location}
+              image={item.image}
+              colorBG={item.colorBG}
+              date={item.date}
+              description={item.description}
+              skills={item.skill}
+              // points={item.points}
+            />
+          </div>
+      ))}
+    </div>
+    </section>
+  );
+};
+
+export default Experience;
