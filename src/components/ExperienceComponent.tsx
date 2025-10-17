@@ -29,7 +29,7 @@ const ExperienceComponent: React.FC<ExperienceComponentProps> = ({
         style={{ backgroundColor: colorBG }}
       >
         <img
-          src={`/img_experience/${image}`}
+          src={`${import.meta.env.BASE_URL}img_experience/${image}`}
           alt={`${company} logo`}
           className="object-contain w-full h-auto max-h-40"
         />

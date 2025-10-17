@@ -23,7 +23,7 @@ const CardProject: React.FC<CardProjectProps> = ({
   return (
     <div className="bg-white dark:bg-slate-900 rounded-lg shadow-lg overflow-hidden transition flex flex-col h-full">
       <img
-        src={`/img_project/${imageUrl}`}
+        src={`${import.meta.env.BASE_URL}img_project/${imageUrl}`}
         alt={title}
         className="w-full h-58 object-cover"
       />
