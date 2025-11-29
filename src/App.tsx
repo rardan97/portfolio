@@ -5,6 +5,7 @@ import DarkModeToggle from './components/DarkModeToggle'
 import NavbarComponent from './components/NavbarComponent'
 import About from './sections/About'
 import Experience from './sections/Experience'
+import Footer from './sections/Footer'
 import Hero from './sections/Hero'
 import Projects from './sections/Projects'
 import Skills from './sections/Skills'
@@ -20,6 +21,7 @@ function App() {
         <Experience />
         <Skills />
         <Projects />
+        <Footer />
       </div>      
     </>
   )

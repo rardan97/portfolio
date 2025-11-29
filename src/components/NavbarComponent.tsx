@@ -7,7 +7,7 @@ const NavbarComponent = () => {
   return (
     <nav className="fixed top-0 left-0 w-full bg-white dark:bg-gray-900 shadow-md z-50">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <div className="text-2xl font-bold text-blue-600">/*Code*/</div>
+        <div className="text-2xl font-bold text-blue-600"><a href="#">/*Code*/</a></div>
           <ul className="hidden md:flex space-x-8 text-gray-700 dark:text-gray-300 font-medium">
             <li><a href="#" className="hover:text-blue-600">Home</a></li>
             <li><a href="#about" className="hover:text-blue-600">About</a></li>
@@ -57,7 +57,6 @@ const NavbarComponent = () => {
           <li><a href="#experience" onClick={() => setIsOpen(false)}>Experience</a></li>
           <li><a href="#skills" onClick={() => setIsOpen(false)}>Skill</a></li>
           <li><a href="#project" onClick={() => setIsOpen(false)}>Projects</a></li>
-          <li><a href="#contact" onClick={() => setIsOpen(false)}>Contact</a></li>
         </ul>
       )}
     </nav>
