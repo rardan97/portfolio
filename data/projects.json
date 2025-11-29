@@ -44,5 +44,24 @@
     "link_detail": "#",
     "link_source": "https://github.com/rardan97/microservice-financial-planner",
     "skill": ["Java", "Spring Boot", "Spring Cloud", "Spring security", "Eureka Server", "Jwt", "Api Gateway", "PostgreSQL", "Docker", "Rest Api", "Microservice", "Resilience4j", "Circuit Breaker"]
+  },
+  {
+    "title": "Spring Boot: Pagination Service",
+    "category":"practice-projects",
+    "description": "External pagination service project using Spring Boot with caching, optimized performance, clear API design, robust error handling, and well-structured code.",
+    "image": "pagination.png",
+    "link_detail": "#",
+    "link_source": "https://github.com/rardan97/external-pagination-service",
+    "skill": ["Java", "Spring Boot", "Caching", "Swagger", "Rest API"]
+  },
+  {
+    "title": "Spring Boot: Managemnt Stock",
+    "category":"practice-projects",
+    "description": "Spring Boot Stock Management System uses Java 17, H2 database, Maven, Lombok, IntelliJ IDEA, and Postman, providing CRUD endpoints for items, inventory, and orders",
+    "image": "management-stock.png",
+    "link_detail": "#",
+    "link_source": "https://github.com/rardan97/spring-boot-management-stock",
+    "skill": ["Java", "Spring Boot", "H2 Database", "Rest API"]
   }
 ]
+  
